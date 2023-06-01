@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
-    <header className="bg-[#2E323F] py-6 w-full">
-      <div className="w-[90%] mx-auto">
+    <header className="bg-[#2E323F] py-4 lg:py-6 w-full">
+      <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-white font-oswald text-3xl font-semibold">
