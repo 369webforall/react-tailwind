@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {AiOutlineMenu} from 'react-icons/ai';
 const Navbar = () => {
   return (
     <header className="bg-[#2E323F] py-4 lg:py-6 w-full">
@@ -10,7 +11,8 @@ const Navbar = () => {
               CRL
             </h1>
           </div>
-          <ul className="flex gap-6">
+          <div className='md:hidden'><AiOutlineMenu size={30} className='text-white'/></div>
+          <ul className="hidden gap-6 md:flex">
             <li>
               <Link to="/" className="text-white">
                 Home

@@ -3,11 +3,12 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="bg-[#3B4050] py-20">
-      <section className=" text-gray-200 container mx-auto">
-        <div className="grid grid-cols-2 gap-2">
-          <div>
+      <section className="px-3 text-gray-200 md:container mx-auto">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div className='max-w-[600px]'>
             <h1 className="text-6xl text-[#fff] font-bold font-oswald">
-              Responsive Layouts <span className='text-[#A59678]'> don't have to be struggle</span>
+              Responsive Layouts{' '}
+              <span className="text-[#A59678]"> don't have to be struggle</span>
             </h1>
           </div>
 
@@ -22,7 +23,8 @@ const Hero = () => {
           </div>
         </div>
       </section>
-    </div>
+
+      </div>
   );
 };
 
